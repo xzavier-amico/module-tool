@@ -1,0 +1,10 @@
+src_dir: src
+dist_dir: dist
+jobs:
+  - name: test-module
+    source: /tmp/opencode/sample.sgmodule
+    from: surge
+    targets: [loon, egern, stash, qx]
+    icon: shield.fill
+    desc: Demo module
+    author: me
